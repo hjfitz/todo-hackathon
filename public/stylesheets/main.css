@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s color ease;
+  color: #00bcd4;
+}
+
+a:hover {
+  color: #4dd0e1;
+}
