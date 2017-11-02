@@ -1,16 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Home from './home.jsx';
 
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 const onUpdate = () => window.scrollTo(0, 0);
 
+
+
+
 const Router = () => {
   return (
     <BrowserRouter onUpdate={onUpdate}>
       <Switch>
-        {/* insert pages here */}
-        {/* <Route exact path='/' component={/*somecomponent*/} />*/}
+         <Route exact path='/' component={Home} />
       </Switch>
     </BrowserRouter>
   );
